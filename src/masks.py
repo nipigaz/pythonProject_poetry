@@ -13,6 +13,7 @@ def get_mask_card_number(card_number: str | int) -> str:
     return masked_number
 
 
+
 def get_mask_account(account_number: str | int) -> str:
     """Убедимся, что номер счета строкового типа и маскируем номер счета, оставляя видимыми только последние
      четыре цифры."""
@@ -29,7 +30,7 @@ def get_mask_account(account_number: str | int) -> str:
 
 
 # Пример использования
-print(get_mask_card_number("7000792289606361"))
+#print(get_mask_card_number("7000792289606361"))
 
 # Пример использования
 # print(get_mask_account("73654108430135874305"))
